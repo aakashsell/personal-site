@@ -1,0 +1,37 @@
+a {
+    color: #f8f8f2;
+    text-decoration: none;
+}
+
+body {
+    background-color: #44475a;
+    color: #f8f8f2;
+    margin: 0px;
+    
+}
+
+img {
+    height: 250px;
+    width: auto;
+    border-radius: 25%;
+    border: 5px solid #282a36;
+}
+
+p {
+    margin: 2%;
+    padding-bottom: 2%;
+}
+
+.main {
+    text-align: center;
+    margin: 1%;
+}
+
+#pic {
+    width: 100%;
+    text-align: center;
+}
+
+.links {
+    margin: 5px;
+}
