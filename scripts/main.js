@@ -1,6 +1,6 @@
 var lastScrollTop = 0;
 
-window.addEventListener("scroll", function(){ // or window.addEventListener("scroll"....
+window.addEventListener("scroll", function(){ 
    var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
    if (st > lastScrollTop){
       window.location.href = "#more-info"

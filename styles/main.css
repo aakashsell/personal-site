@@ -10,11 +10,21 @@ html{
     color: #211A1D;
     scroll-behavior: smooth;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
 }
 
 a{
     text-decoration: none;
-    color: #CBD4C2;
+}
+
+
+
+#more-info a{
+    color: #211A1D;
+}
+
+#start a{
+    color: #CBD2C2;
 }
 
 .link{
@@ -27,8 +37,9 @@ a{
     overflow: hidden;
 }
 
-#arrow{
+#down-arrow{
     vertical-align: bottom;
+    margin-top: 40vh;
 }
 
 #links{
@@ -38,14 +49,25 @@ a{
     vertical-align: center;
 }
 
+#more-info{
+    text-align: center;
+}
+
 #start{
     background-color: #F45B69; 
     color: #CBD4C2;
     text-align: center;
+    display: table;
+    align-items: center;
     vertical-align: middle;
 
 }
 
 #start-text{
     font-size: 40px;
+    margin-top: 40vh;
+}
+
+#up-arrow{
+    margin-top: 5vh;
 }
