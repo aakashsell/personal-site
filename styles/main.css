@@ -1,37 +1,51 @@
-a {
-    color: #f8f8f2;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #CBD4C2;
+    color: #211A1D;
+    scroll-behavior: smooth;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
     text-decoration: none;
+    color: #CBD4C2;
 }
 
-body {
-    background-color: #44475a;
-    color: #f8f8f2;
-    margin: 0px;
-    
-}
-
-img {
-    height: 250px;
-    width: auto;
-    border-radius: 25%;
-    border: 5px solid #282a36;
-}
-
-p {
-    margin: 2%;
-    padding-bottom: 2%;
-}
-
-.main {
-    text-align: center;
-    margin: 1%;
-}
-
-#pic {
-    width: 100%;
-    text-align: center;
-}
-
-.links {
+.link{
     margin: 5px;
+}
+
+.section{
+    height: 100vh;
+    width: calc(100vw - (100vw - 100%));
+    overflow: hidden;
+}
+
+#arrow{
+    vertical-align: bottom;
+}
+
+#links{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    vertical-align: center;
+}
+
+#start{
+    background-color: #F45B69; 
+    color: #CBD4C2;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#start-text{
+    font-size: 40px;
 }
