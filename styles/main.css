@@ -11,6 +11,8 @@ html{
     scroll-behavior: smooth;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    height: 100vh;
+    width: calc(100vw - (100vw - 100%));
 }
 
 a{
@@ -47,6 +49,13 @@ a{
     font-size: 20px;
     justify-content: center;
     vertical-align: center;
+}
+
+#main-pic{
+    height: 40%;
+    width: auto;
+    border-radius: 15%;
+    border-color: #F45B69;
 }
 
 #more-info{
