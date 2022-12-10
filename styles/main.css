@@ -6,9 +6,8 @@
 }
 
 html{
-    background-color: #CBD4C2;
-    color: #211A1D;
-    scroll-behavior: smooth;
+    background-color: #CFDBD5;
+    color: #211A1D; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
     height: 100vh;
@@ -26,7 +25,7 @@ a{
 }
 
 #start a{
-    color: #CBD2C2;
+    color: #CFDBD5;
 }
 
 .link{
@@ -55,7 +54,7 @@ a{
     height: 30%;
     width: auto;
     border-radius: 40%;
-    border: 5px solid #F45B69;
+    border: 5px solid #800000;
     margin-top: 15vh;
 }
 
@@ -76,8 +75,8 @@ a{
 }
 
 #start{
-    background-color: #F45B69; 
-    color: #CBD4C2;
+    background-color: #800000; 
+    color: #CFDBD5;
     text-align: center;
     display: table;
     align-items: center;
