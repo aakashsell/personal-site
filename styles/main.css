@@ -15,7 +15,7 @@ html{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -55,11 +55,10 @@ a{
     width: auto;
     border-radius: 40%;
     border: 5px solid #800000;
-    margin-top: 15vh;
 }
 
 #main-text{
-    width: 36%;
+    width: 45%;
     text-align: center;
     margin-top: 2%;
     margin-left: auto;
@@ -67,26 +66,21 @@ a{
     font-size: 20px;
 }
 
-#more-info{
-    text-align: center;
-    display: block;
-    align-items: center;
-
-}
 
 #start{
     background-color: #800000; 
     color: #CFDBD5;
-    text-align: center;
-    display: table;
-    align-items: center;
     vertical-align: middle;
+    text-align: center;
+    display: block;
+    align-items: center;
+
 
 }
 
 #start-text{
     font-size: 40px;
-    margin-top: 40vh;
+    margin-top: 20vh;
 }
 
 #up-arrow{
