@@ -50,9 +50,9 @@ if (publications.length > 0) {
 		orderdEducations.length > 0 && (
 			<section class='mb-12'>
 				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
-					Education
+					Work Experience
 				</h2>
-				<CvTimeline elements={orderdEducations} colored={true} />
+				<CvTimeline elements={orderdExperiences} colored={true} />
 			</section>
 		)
 	}
@@ -61,23 +61,13 @@ if (publications.length > 0) {
 		orderdExperiences.length > 0 && (
 			<section class='mb-12'>
 				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
-					Experiences
+					Education
 				</h2>
-				<CvTimeline elements={orderdExperiences} colored={true} />
+				<CvTimeline elements={orderdEducations} colored={true} />
 			</section>
 		)
 	}
 
-	{
-		orderdEducations.length > 0 && (
-			<section class='mb-12'>
-				<h2 class='text-2xl font-bold mb-6 border-b pb-2'>
-					Last publications
-				</h2>
-				<PublicationsList elements={orderedPublications}/>
-			</section>
-		)
-	}
 
 	{
 		skills.length > 0 && (

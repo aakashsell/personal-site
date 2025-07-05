@@ -1,9 +1,23 @@
 export const experiences = [
 	{
-		company: '',
+		company: 'Meta',
 		time: '',
-		title: '',
-		location: '',
+		title: 'Incoming Software Engineer',
+		location: 'Bellevue, WA',
+		description: '',
+	},
+	{
+		company: 'Justworks',
+		time: '',
+		title: 'Data Science Intern',
+		location: 'New York, NY',
+		description: '',
+	},
+	{
+		company: 'Justworks',
+		time: '',
+		title: 'Software Engineer Intern',
+		location: 'New York, NY',
 		description: '',
 	},
 	// {
@@ -16,20 +30,21 @@ export const experiences = [
 ];
 
 export const education = [
+
 	{
-		school: '',
-		time: '',
-		degree: '',
+		school: 'University of Texas at Austin',
+		time: '2025 - present',
+		degree: 'MS of Computer Science',
 		location: '',
 		description: '',
 	},
-	// {
-	// 	school: 'University of Paris',
-	// 	time: '1891 - 1895',
-	// 	degree: 'Master’s in Physics and Mathematics',
-	// 	location: 'Paris, France',
-	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+	{
+		school: 'Carnegie Mellon University',
+		time: '2021 - 2025',
+		degree: 'BS of Electrical and Computer Engineering',
+		location: '',
+		description: '',
+	},
 ];
 
 export const skills = [
